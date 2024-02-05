@@ -55,7 +55,7 @@ Over 50 Epochs there is a serious improvement in the generated images. I kept th
 #### Epoch 50
 ![Alt text](./images/epoch_50.png)
 
-The generator was still having some trouble with the first input digit, it was a much clearer ‘8’ early in the training but the rest of the digits look nearly exactly like you would see them in the set. There is a clear ‘0’,‘7’,‘0’,‘0’. I think that the generator chose 0 for several of these because the features are not as ambiguous as some of the other digits, like we saw the separation with PCA and the autoencoder.
+The generator was still having some trouble with the first input digit, it was a much clearer ‘8’ early in the training but the rest of the digits look nearly exactly like you would see them in the set. There is a clear ‘0’, ‘7’, ‘0’, ‘0’. I think that the generator chose 0 for several of these because the features are not as ambiguous as some of the other digits, like we saw the separation with PCA and the autoencoder.
 
 ### GAN Loss
 ![Alt text](./images/GAN_loss.png)
